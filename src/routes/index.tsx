@@ -6,6 +6,7 @@ export const Route = createFileRoute('/')({component: LandingPage});
 import {HeroSection} from '#/components/landing-page/HeroSection';
 import { ListOfExamsSupported } from '#/components/landing-page/ListOfExamsSupported';
 import { HowToUseThisApp } from '#/components/landing-page/HowToUseThisApp';
+import { SampleQuestion } from '#/components/landing-page/SampleQuestion';
 
 
 //Page:
@@ -16,6 +17,7 @@ function LandingPage()
             <HeroSection/>
             <ListOfExamsSupported/>
             <HowToUseThisApp/>
+            <SampleQuestion/>
         </>
     );
 }

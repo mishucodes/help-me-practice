@@ -3,8 +3,8 @@ import { heading, steps } from "#/content/landing-page/howToUseThisApp";
 export function HowToUseThisApp()
 {
     return(
-        <section className="py-10 px-5 flex flex-col justify-center items-center gap-8">
-            <h2 className="font-bold text-4xl">{heading}</h2>
+        <section className="py-20 px-5 flex flex-col justify-center items-center gap-8">
+            <h2 className="font-bold text-4xl border-b py-2">{heading}</h2>
             <ol className="list-decimal flex flex-col gap-2">
                 {
                     steps.map(({id, title, description}) =>

@@ -4,14 +4,14 @@ export function ListOfExamsSupported()
 {
     return(
         <section className="bg-card/50 px-5 py-10 flex flex-col justify-center items-center text-center gap-10">
-            <div>
+            <div className="bg-red-500/0">
                 <h2 className="text-4xl font-semibold">{heading}</h2>
                 <p className="opacity-75">{subheading}</p>
             </div>
-            <ul className="flex flex-wrap flex-col md:flex-row md:items-start gap-5">
+            <ul className="w-full flex flex-wrap flex-col md:flex-row justify-start md:items-start gap-5">
                 {
                     examsSupported.map(({id, Icon, category, bgc, list}) =>
-                        <li key={id} className={`${bgc} h-full py-5 px-3 md:px-5 flex flex-col justify-center items-center text-center gap-2`}>
+                        <li key={id} className={`${bgc} py-5 px-3 md:px-5 flex flex-col justify-center items-center text-center gap-2`}>
                             <div className="flex flex-col justify-center items-center">
                                 <Icon className="h-10 w-10 opacity-90"/>
                                 <h3 className="text-[1.25rem] font-bold opacity-90">{category}</h3>
@@ -19,7 +19,7 @@ export function ListOfExamsSupported()
                             {
                                 // Need to update these to Links:
                                 list.map((examName, idx) =>
-                                    <span key={idx} className="text-sm">
+                                    <span key={idx} className="text-sm underline">
                                         {examName}
                                     </span>)
                             }

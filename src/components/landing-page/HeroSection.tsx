@@ -4,7 +4,7 @@ import {heading, subheading, textForCTA, trustSection} from "#/content/landing-p
 export function HeroSection()
 {
     return(
-        <section className="px-5 py-10 flex flex-col justify-center items-center gap-10 text-center">
+        <section className="px-5 py-20 flex flex-col justify-center items-center gap-10 text-center">
             <div className="flex flex-col gap-2">
                 <h1 className="font-bold text-5xl">{heading}</h1>
                 <p className="opacity-75">{subheading}</p>
