@@ -4,7 +4,6 @@ import {brandnameStylised, brandLogoSquareTransparentLightMode, brandLogoSquareT
 export const headerTitle = brandnameStylised;
 export const brandLogoInLightMode = brandLogoSquareTransparentLightMode;
 export const brandLogoInDarkMode = brandLogoSquareTransparentDarkMode;
-export const brandLogoAlt = "brand-logo";
 
 //SearchBox:
 export const searchPlaceholder = "Find it faster with a search";

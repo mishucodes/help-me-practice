@@ -3,8 +3,8 @@ import {brandLogoSquareSolid, brandname, brandTagline, githubProfileLink, linked
 //Icons:
 import type {IconType} from "react-icons";
 import {SiGithub} from "react-icons/si";
-import {FaLinkedin, FaXTwitter} from "react-icons/fa6";
 import {HiCodeBracket, HiHome} from "react-icons/hi2";
+import {FaLinkedin, FaXTwitter} from "react-icons/fa6";
 //Routes:
 import type {FileRouteTypes} from "#/routeTree.gen";
 
