@@ -1,6 +1,7 @@
 import {heading, sampleQuestion, sampleQuestionTopic} from "#/content/landing-page/sampleQuestion";
 import {useState} from "react";
 import {Button} from "../ui/button";
+import {playSound} from "#/lib/sounds";
 
 export function SampleQuestion()
 {
@@ -11,12 +12,12 @@ export function SampleQuestion()
         setSubmitted(true);
         if(selectedOption === null)
         {
-            console.log("skip"); //play skip sound
+            playSound("skip");
             return;
         }
-        const isCorrect = sampleQuestion.correctOptions.includes(selectedOption);
-        if(isCorrect) console.log("correct"); //play win sound
-        else console.log("incorrect"); //play lose sound
+        const isCorrect = sampleQuestion.correctOptions.includes(selectedOption+1);
+        if(isCorrect) playSound("correct");
+        else playSound("incorrect");
     }
 
     return(
@@ -43,7 +44,7 @@ export function SampleQuestion()
                                     <li key={idx}>
                                         <Button
                                             variant={"outline"}
-                                            onClick={() => setSelectedOption(idx+1)}
+                                            onClick={() => setSelectedOption(idx)}
                                             className=
                                                 {`
                                                     whitespace-normal h-auto text-left justify-start py-2
