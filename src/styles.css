@@ -94,9 +94,9 @@
   --sidebar-accent-foreground: hsl(52.9412 15.5963% 78.6275%);
   --sidebar-border: hsl(0 0% 7.0588%);
   --sidebar-ring: hsl(0 0% 40%);
-  --font-sans: Montserrat, ui-sans-serif, sans-serif, system-ui;
-  --font-serif: Merriweather, ui-serif, serif;
-  --font-mono: Google Sans Code, ui-monospace, monospace;
+  --font-sans: Montserrat Variable, ui-sans-serif, sans-serif, system-ui;
+  --font-serif: Merriweather Variable, ui-serif, serif;
+  --font-mono: Google Sans Code Variable, ui-monospace, monospace;
   --radius: 1rem;
   --shadow-x: 0;
   --shadow-y: 1px;

@@ -6,6 +6,8 @@ import appCss from '../styles.css?url';
 import {ThemeProvider} from "@/components/theme-provider";
 
 //Components:
+import {Header} from '#/components/shared/header/Header';
+import {Footer} from '#/components/shared/footer/Footer';
 
 //Metadata:
 export const Route = createRootRoute(
@@ -38,9 +40,11 @@ function RootDocument({children}: {children: React.ReactNode})
             </head>
             <body>
                 <ThemeProvider defaultTheme="system" storageKey="theme">
+                    <Header/>
                     <main className='w-screen p-5'>
                         {children}
                     </main>
+                    <Footer/>
                 </ThemeProvider>
                 {/* <TanStackDevtools
                     config={{position: 'bottom-right'}}

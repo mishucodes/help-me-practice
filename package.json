@@ -20,6 +20,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@base-ui/react": "^1.8.0",
     "@fontsource-variable/google-sans-code": "^5.3.0",
     "@fontsource-variable/merriweather": "^5.3.0",
     "@fontsource-variable/montserrat": "^5.3.0",
@@ -36,9 +37,9 @@
     "lucide-react": "^0.577.0",
     "nitro": "3.0.260610-beta",
     "pg": "^8.16.3",
-    "radix-ui": "^1.6.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-icons": "^5.7.0",
     "shadcn": "^4.21.0",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.1.18",
