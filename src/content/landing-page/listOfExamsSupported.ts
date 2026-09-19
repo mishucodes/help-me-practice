@@ -1,7 +1,7 @@
 import type { IconType } from "react-icons";
 import { FaBriefcaseMedical, FaBuilding, FaCode, FaGavel, FaHandshake } from "react-icons/fa6";
 
-export const heading = "Exams You Can Practice";
+export const heading = "Exams You Can Practice Right Now";
 export const subheading = "We're starting with the exams students ask for most. More are added regularly — and you can request one below.";
 
 export type Exams = {id: number, category: string, Icon: IconType, bgc: string, list: string[]};
