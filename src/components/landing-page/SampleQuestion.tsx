@@ -1,24 +1,24 @@
-import { heading, sampleQuestion, sampleQuestionTopic } from "#/content/landing-page/sampleQuestion";
-import { useState } from "react";
-import { Button } from "../ui/button";
+import {heading, sampleQuestion, sampleQuestionTopic} from "#/content/landing-page/sampleQuestion";
+import {useState} from "react";
+import {Button} from "../ui/button";
 
 export function SampleQuestion()
 {
-    const [selectedOption, setSelectedOption] = useState<number>(0);
-    const [isCorrect, setIsCorrect] = useState<boolean | undefined>(undefined);
-    function revealRealAnswer()
+    const [selectedOption, setSelectedOption] = useState<number|null>(null);
+    const [submitted, setSubmitted] = useState(false);
+    function handleSubmit()
     {
-        if(sampleQuestion.correctOptions.find((correctOption) => correctOption === selectedOption))
+        setSubmitted(true);
+        if(selectedOption === null)
         {
-            //play some nice sound?
-            setIsCorrect(true);
+            console.log("skip"); //play skip sound
+            return;
         }
-        else
-        {
-            //play some bad sound?
-            setIsCorrect(false);
-        }
+        const isCorrect = sampleQuestion.correctOptions.includes(selectedOption);
+        if(isCorrect) console.log("correct"); //play win sound
+        else console.log("incorrect"); //play lose sound
     }
+
     return(
         <section className="bg-card p-5 flex flex-col gap-4">
             <h2 className="font-bold text-2xl md:text-3xl">{heading}</h2>
@@ -36,33 +36,29 @@ export function SampleQuestion()
                 <ol className="my-2 flex flex-col justify-center items-start gap-1">
                     {
                         sampleQuestion.options.map((option, idx) =>
-                            <li key={idx}>
-                                <Button
-                                    variant={"outline"}
-                                    onClick={() => setSelectedOption(idx+1)}
-                                    className=
-                                        {`
-                                            whitespace-normal h-auto text-left justify-start py-2
-                                            ${selectedOption === idx+1 ? "bg-primary/40": ""}
-                                            ${
-                                                isCorrect === undefined
-                                                ?
-                                                null
-                                                :
-                                                sampleQuestion.correctOptions.find((correctOption) => correctOption === idx+1)
-                                                ?
-                                                "bg-green-500/50"
-                                                :
-                                                "bg-destructive/50"
-                                            }
-                                        `}
-                                >
-                                    {option}
-                                </Button>
-                            </li>)
+                            {
+                                const isCorrect = sampleQuestion.correctOptions.includes(idx+1);
+                                const revealClass = submitted ? (isCorrect ? "bg-green-500/50" : "bg-red-500/50") : null;
+                                return (
+                                    <li key={idx}>
+                                        <Button
+                                            variant={"outline"}
+                                            onClick={() => setSelectedOption(idx+1)}
+                                            className=
+                                                {`
+                                                    whitespace-normal h-auto text-left justify-start py-2
+                                                    ${selectedOption === idx ? "bg-primary/40" : ""}
+                                                    ${revealClass}
+                                                `}
+                                        >
+                                            {option}
+                                        </Button>
+                                    </li>
+                                );
+                            })
                     }
                 </ol>
-                <Button variant={"default"} onClick={revealRealAnswer}>Submit</Button>
+                <Button variant={"default"} onClick={handleSubmit}>Submit</Button>
             </div>
         </section>
     )
