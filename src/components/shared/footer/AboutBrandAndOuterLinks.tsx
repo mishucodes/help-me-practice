@@ -10,7 +10,7 @@ export function AboutBrandAndOuterLinks()
                 <img src={brandLogo} alt={brandLogoAlt} className="h-15 w-15 md:h-20 md:w-20" />
                 <div className="flex flex-col gap-1">
                     <Link to="/" className="font-bold text-2xl md:text-3xl tracking-tight">{footerHeading}</Link>
-                    <ul className="flex gap-2">
+                    <ul className="flex flex-wrap gap-2">
                         {
                             socialMediaLinks.map(({id, link, Icon}) =>
                                 <li key={id}>
