@@ -6,8 +6,8 @@ import appCss from '../styles.css?url';
 import {ThemeProvider} from "@/components/theme-provider";
 
 //Components:
-import {Header} from '#/components/shared/header/Header';
-import {Footer} from '#/components/shared/footer/Footer';
+import {Header} from '#/components/header/Header';
+import {Footer} from '#/components/footer/Footer';
 
 //Metadata:
 export const Route = createRootRoute(
