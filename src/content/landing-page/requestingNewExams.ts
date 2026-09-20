@@ -1,0 +1,1 @@
+export const heading = "Need some other Exam? Write to us here!";
