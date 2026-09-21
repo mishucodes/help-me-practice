@@ -3,6 +3,3 @@ Requests for New Exams:
     Requestee's Name
     Exam Name
     How many years'
-    Phone Number?
-    Willing to send us pdfs (boolean)
-
