@@ -41,7 +41,7 @@ function RootDocument({children}: {children: React.ReactNode})
             <body>
                 <ThemeProvider defaultTheme="system" storageKey="theme">
                     <Header/>
-                    <main className='w-screen p-5'>
+                    <main className='w-screen'>
                         {children}
                     </main>
                     <Footer/>

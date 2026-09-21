@@ -1,5 +1,5 @@
 //Content:
-import {heading} from "#/content/landing-page/requestingNewExams";
+import {heading, subheading} from "#/content/landing-page/requestingNewExams";
 import z from "zod";
 //Components:
 import {SimpleForm, type SimpleFormProps} from "../shared/SimpleForm";
@@ -55,8 +55,11 @@ export function RequestingNewExams()
             }
         ] satisfies SimpleFormProps["formFields"];
     return (
-        <section className="bg-accent/10 px-5 py-10 flex flex-col justify-center items-center text-center gap-10">
-            <h2 className="text-3xl font-semibold">{heading}</h2>
+        <section className="bg-primary/5 px-7 py-10 flex flex-col justify-center items-center text-center gap-10">
+            <div>
+                <h2 className="text-[1.75rem] md:text-3xl font-semibold">{heading}</h2>
+                <h3 className="text-[1.75rem] md:text-3xl font-semibold">{subheading}</h3>
+            </div>
             <SimpleForm formFields={formFields} submitButtonText="Request New Exam" onSubmit={(values) => console.log(values)}/>
         </section>
     );

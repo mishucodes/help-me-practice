@@ -3,14 +3,14 @@ import { heading, steps } from "#/content/landing-page/howToUseThisApp";
 export function HowToUseThisApp()
 {
     return(
-        <section className="py-20 px-5 flex flex-col justify-center items-center gap-8">
-            <h2 className="font-bold text-4xl border-b py-2">{heading}</h2>
-            <ol className="list-decimal flex flex-col gap-2">
+        <section className="py-20 px-10 flex flex-col justify-center items-center gap-8">
+            <h2 className="font-bold text-3xl md:text-4xl border-b py-2">{heading}</h2>
+            <ol className="list-decimal flex flex-col gap-2 opacity-90">
                 {
                     steps.map(({id, title, description}) =>
                         <li key={id}>
                             <p>
-                                <strong className="font-bold">{title}: </strong>
+                                <strong>{title}: </strong>
                                 {description}
                             </p>
                         </li>)

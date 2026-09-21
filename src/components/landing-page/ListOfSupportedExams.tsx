@@ -1,12 +1,13 @@
 import { examsSupported, heading, subheading } from "#/content/landing-page/listOfExamsSupported";
+import { Link } from "@tanstack/react-router";
 
-export function ListOfExamsSupported()
+export function ListOfSupportedExams()
 {
     return(
         <section className="bg-card/50 px-5 py-10 flex flex-col justify-center items-center text-center gap-10">
-            <div className="bg-red-500/0">
-                <h2 className="text-4xl font-semibold">{heading}</h2>
-                <p className="opacity-75">{subheading}</p>
+            <div className="flex flex-col gap-2">
+                <h2 className="text-3xl md:text-4xl font-semibold">{heading}</h2>
+                <p className="text-sm opacity-75">{subheading}</p>
             </div>
             <ul className="w-full flex flex-wrap justify-center gap-5">
                 {
@@ -18,11 +19,11 @@ export function ListOfExamsSupported()
                             </div>
                             <div className="flex flex-col gap-2">
                                 {
-                                    // Need to update these to Links:
+                                    // Need to update these links:
                                     list.map((examName, idx) =>
-                                        <span key={idx} className="text-sm underline">
+                                        <Link key={idx} to="/" className="text-sm underline">
                                             {examName}
-                                        </span>)
+                                        </Link>)
                                 }
                             </div>
                         </li>)

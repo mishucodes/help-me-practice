@@ -4,7 +4,7 @@ export const Route = createFileRoute('/')({component: LandingPage});
 
 //Components:
 import {HeroSection} from '#/components/landing-page/HeroSection';
-import { ListOfExamsSupported } from '#/components/landing-page/ListOfExamsSupported';
+import { ListOfSupportedExams } from '#/components/landing-page/ListOfSupportedExams';
 import { HowToUseThisApp } from '#/components/landing-page/HowToUseThisApp';
 import { SampleQuestion } from '#/components/landing-page/SampleQuestion';
 import { RequestingNewExams } from '#/components/landing-page/RequestingNewExams';
@@ -16,7 +16,7 @@ function LandingPage()
     return (
         <>
             <HeroSection/>
-            <ListOfExamsSupported/>
+            <ListOfSupportedExams/>
             <RequestingNewExams/>
             <HowToUseThisApp/>
             <SampleQuestion/>

@@ -21,8 +21,8 @@ export function SampleQuestion()
     }
 
     return(
-        <section className="bg-card p-5 flex flex-col gap-4">
-            <h2 className="font-bold text-2xl md:text-3xl">{heading}</h2>
+        <section className="bg-card p-7 flex flex-col gap-4">
+            <h2 className="font-bold text-[1.75rem] md:text-3xl">{heading}</h2>
             <hr />
             <div className="font-serif">
                 <h3 className="font-semibold text-[1.1rem]">{sampleQuestionTopic}</h3>
@@ -43,7 +43,7 @@ export function SampleQuestion()
                                 return (
                                     <li key={idx}>
                                         <Button
-                                            variant={"outline"}
+                                            variant={"secondary"}
                                             onClick={() => setSelectedOption(idx)}
                                             className=
                                                 {`
