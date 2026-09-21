@@ -12,9 +12,10 @@ export type SimpleFormProps =
             {
                 id: string,
                 name: string,
-                type: "text" | "email" | "tel",
+                type: "text" | "email" | "tel" | "number",
                 defaultValue?: string,
                 placeholder?: string,
+                required: boolean,
                 validator: StandardSchemaV1<string> //zod schema
             }[],
         submitButtonText: string,
@@ -30,17 +31,18 @@ export function SimpleForm({formFields, submitButtonText, onSubmit}: SimpleFormP
         <form onSubmit={(e) => {e.preventDefault(); e.stopPropagation(); simpleForm.handleSubmit()}} className="flex flex-col gap-5">
             <div className="flex justify-center items-center flex-wrap gap-2">
             {
-                formFields.map(({id, name, type, placeholder, validator}) => (
+                formFields.map(({id, name, type, placeholder, required, validator}) => (
                     <simpleForm.Field key={id} name={id} validators={{onChange: validator}}>
                         {
                             (field) => (
                                 <Field>
-                                    <FieldLabel htmlFor={id}>{name}</FieldLabel>
+                                    <FieldLabel htmlFor={id}>{name}{required && <span className="text-destructive">*</span>}</FieldLabel>
                                         <Input
                                             type={type}
                                             id={id}
                                             name={id}
                                             placeholder={placeholder}
+                                            required={required}
                                             value={field.state.value}
                                             onBlur={field.handleBlur}
                                             onChange={(e) => field.handleChange(e.target.value)}

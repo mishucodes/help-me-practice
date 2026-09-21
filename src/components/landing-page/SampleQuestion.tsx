@@ -39,7 +39,7 @@ export function SampleQuestion()
                         sampleQuestion.options.map((option, idx) =>
                             {
                                 const isCorrect = sampleQuestion.correctOptions.includes(idx+1);
-                                const revealClass = submitted ? (isCorrect ? "bg-green-500/50" : "bg-red-500/50") : null;
+                                const revealClass = submitted ? (isCorrect ? "bg-green-500/50 dark:bg-green-500/50" : "bg-red-500/50 dark:bg-red-500/50") : "";
                                 return (
                                     <li key={idx}>
                                         <Button
@@ -48,7 +48,7 @@ export function SampleQuestion()
                                             className=
                                                 {`
                                                     whitespace-normal h-auto text-left justify-start py-2
-                                                    ${selectedOption === idx ? "bg-primary" : ""}
+                                                    ${selectedOption === idx ? "bg-primary/75 dark:bg-primary/50" : ""}
                                                     ${revealClass}
                                                 `}
                                         >
