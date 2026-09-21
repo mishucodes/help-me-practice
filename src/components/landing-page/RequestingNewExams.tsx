@@ -23,6 +23,14 @@ export function RequestingNewExams()
                 defaultValue: "",
                 placeholder: "Doe",
                 validator: z.string().min(2, "Please enter at-least two chars")
+            },
+            {
+                id: "exam_name",
+                name: "Exam Name",
+                type: "text",
+                defaultValue: "",
+                placeholder: "CLAT UG",
+                validator: z.string().min(9, "The format is like '2000-2015'")
             }
         ] satisfies SimpleFormProps["formFields"];
     return (

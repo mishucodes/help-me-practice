@@ -27,7 +27,8 @@ export function SimpleForm({formFields, submitButtonText, onSubmit}: SimpleFormP
     const defaultValues: Record<string, string> = Object.fromEntries(formFields.map(({id, defaultValue}) => [id, defaultValue ?? ""]));
     const simpleForm = useForm({defaultValues, onSubmit: ({value}) => onSubmit(value)});
     return (
-        <form onSubmit={(e) => {e.preventDefault(); e.stopPropagation(); simpleForm.handleSubmit()}} className="flex flex-col gap-2">
+        <form onSubmit={(e) => {e.preventDefault(); e.stopPropagation(); simpleForm.handleSubmit()}} className="flex flex-col gap-5">
+            <div className="flex justify-center items-center flex-wrap gap-2">
             {
                 formFields.map(({id, name, type, placeholder, validator}) => (
                     <simpleForm.Field key={id} name={id} validators={{onChange: validator}}>
@@ -44,7 +45,7 @@ export function SimpleForm({formFields, submitButtonText, onSubmit}: SimpleFormP
                                             onBlur={field.handleBlur}
                                             onChange={(e) => field.handleChange(e.target.value)}
                                         />
-                                        <FieldDescription>
+                                        <FieldDescription className="text-destructive">
                                             {
                                                 field.state.meta.isTouched
                                                 &&
@@ -61,6 +62,7 @@ export function SimpleForm({formFields, submitButtonText, onSubmit}: SimpleFormP
                     </simpleForm.Field>
                 ))
             }
+            </div>
             <Button variant={"default"} type="submit">{submitButtonText}</Button>
         </form>
     );
