@@ -48,7 +48,7 @@ export function SampleQuestion()
                                             className=
                                                 {`
                                                     whitespace-normal h-auto text-left justify-start py-2
-                                                    ${selectedOption === idx ? "bg-primary/40" : ""}
+                                                    ${selectedOption === idx ? "bg-primary" : ""}
                                                     ${revealClass}
                                                 `}
                                         >
