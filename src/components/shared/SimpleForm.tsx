@@ -1,61 +1,61 @@
 //Dependencies
 import {useForm} from "@tanstack/react-form";
+import type {StandardSchemaV1} from "@tanstack/react-form";
 import {Button} from "../ui/button";
+import { Input } from "../ui/input";
+import { Field, FieldDescription, FieldLabel } from "../ui/field";
 
 //Types:
 export type SimpleFormProps =
     {
         formFields:
             {
+                id: string,
                 name: string,
-                type: "input" | "email" | "tel",
+                type: "text" | "email" | "tel",
                 defaultValue?: string,
                 placeholder?: string,
-                validator: any //zod schema
+                validator: StandardSchemaV1<string> //zod schema
             }[],
-        submitButtonText: string
-        onSubmit: any, //fn that takes all the values in the form...
+        submitButtonText: string,
+        onSubmit: (values: Record<string, string>) => void
     };
 
 //Component:
 export function SimpleForm({formFields, submitButtonText, onSubmit}: SimpleFormProps)
 {
-    const simpleForm = useForm(
-        {
-            defaultValues: formFields.map((field => field.defaultValue && "")),
-            onSubmit: onSubmit
-        });
+    const defaultValues: Record<string, string> = Object.fromEntries(formFields.map(({id, defaultValue}) => [id, defaultValue ?? ""]));
+    const simpleForm = useForm({defaultValues, onSubmit: ({value}) => onSubmit(value)});
     return (
         <form onSubmit={(e) => {e.preventDefault(); e.stopPropagation(); simpleForm.handleSubmit()}} className="flex flex-col gap-2">
             {
-                formFields.map(({name, type, placeholder, validator}, idx) => (
-                    <simpleForm.Field key={idx} name={name} validators={validator}>
+                formFields.map(({id, name, type, placeholder, validator}) => (
+                    <simpleForm.Field key={id} name={id} validators={{onChange: validator}}>
                         {
                             (field) => (
-                                <>
-                                    <div className="flex gap-2 justify-center items-center">
-                                        <label htmlFor={name}>{name}</label>
-                                        <input
+                                <Field>
+                                    <FieldLabel htmlFor={id}>{name}</FieldLabel>
+                                        <Input
                                             type={type}
-                                            name={field.name}
-                                            id={field.name}
+                                            id={id}
+                                            name={id}
+                                            placeholder={placeholder}
                                             value={field.state.value}
                                             onBlur={field.handleBlur}
                                             onChange={(e) => field.handleChange(e.target.value)}
-                                            placeholder={placeholder}
-                                            className="text-base border p-1"
                                         />
-                                    {
-                                        field.state.meta.isTouched
-                                        &&
-                                        field.state.meta.errors.length
-                                        ?
-                                        field.state.meta.errors.map((err, idx) => <span key={idx} className="text-xs text-destructive">{err?.message}</span>)
-                                        :
-                                        null
-                                    }
-                                    </div>
-                                </>
+                                        <FieldDescription>
+                                            {
+                                                field.state.meta.isTouched
+                                                &&
+                                                field.state.meta.errors.length
+                                                ?
+                                                field.state.meta.errors.map(err => err?.message)
+                                                :
+                                                null
+                                            }
+                                        </FieldDescription>
+                                </Field>
                             )
                         }
                     </simpleForm.Field>
