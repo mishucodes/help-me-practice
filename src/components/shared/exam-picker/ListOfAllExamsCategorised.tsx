@@ -14,8 +14,9 @@ export function ListOfAllExamsCategorised()
                         </div>
                         <div className="flex flex-col gap-2">
                             {
-                                namesAndYearsOfExams.map((exam) =>
+                                namesAndYearsOfExams.map((exam, idx) =>
                                     <YearPickerForExam
+                                        key={idx}
                                         examCategory = {category}
                                         examName={exam.name}
                                         yearsSupported={exam.years}
