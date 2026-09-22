@@ -5,19 +5,12 @@ import {playSound} from "#/lib/sounds";
 
 export function SampleQuestion()
 {
-    const [selectedOption, setSelectedOption] = useState<number|null>(null);
-    const [submitted, setSubmitted] = useState(false);
-    function handleSubmit()
+    const [answered, setAnswered] = useState(false);
+
+    function handleSelect(idx: number)
     {
-        setSubmitted(true);
-        if(selectedOption === null)
-        {
-            playSound("skip");
-            return;
-        }
-        const isCorrect = sampleQuestion.correctOptions.includes(selectedOption+1);
-        if(isCorrect) playSound("correct");
-        else playSound("incorrect");
+        setAnswered(true);
+        playSound(sampleQuestion.correctOptions.includes(idx+1) ? "correct" : "incorrect");
     }
 
     return(
@@ -39,18 +32,13 @@ export function SampleQuestion()
                         sampleQuestion.options.map((option, idx) =>
                             {
                                 const isCorrect = sampleQuestion.correctOptions.includes(idx+1);
-                                const revealClass = submitted ? (isCorrect ? "bg-green-500/50 dark:bg-green-500/50" : "bg-red-500/50 dark:bg-red-500/50") : "";
+                                const revealClass = answered ? (isCorrect ? "bg-green-500/50 dark:bg-green-500/50" : "bg-red-500/50 dark:bg-red-500/50") : "";
                                 return (
                                     <li key={idx}>
                                         <Button
                                             variant={"secondary"}
-                                            onClick={() => setSelectedOption(idx)}
-                                            className=
-                                                {`
-                                                    whitespace-normal h-auto text-left justify-start py-2
-                                                    ${selectedOption === idx ? "bg-primary/75 dark:bg-primary/50" : ""}
-                                                    ${revealClass}
-                                                `}
+                                            onClick={() => handleSelect(idx)}
+                                            className={`whitespace-normal h-auto text-left justify-start py-2 ${revealClass}`}
                                         >
                                             {option}
                                         </Button>
@@ -59,7 +47,6 @@ export function SampleQuestion()
                             })
                     }
                 </ol>
-                <Button variant={"default"} onClick={handleSubmit}>Submit</Button>
             </div>
         </section>
     )
