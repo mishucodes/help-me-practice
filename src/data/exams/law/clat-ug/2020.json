@@ -1,0 +1,62 @@
+[
+    {
+        "passage": "The principle of natural justice known as audi alteram partem requires that no person shall be condemned unheard. Before any adverse decision is taken against an individual, that person must be given notice of the case against them and a fair opportunity to present their side. This rule applies to quasi-judicial and administrative authorities alike wherever a decision affects the rights or interests of a person. However, courts have recognised exceptions, such as situations of genuine urgency, where immediate action is necessary to prevent harm, or where a statute expressly excludes the requirement of a hearing.",
+        "question": "A municipal officer demolishes a shopkeeper's stall overnight without issuing any notice, claiming the structure was illegal. There was no emergency, and the relevant statute did not exclude the right to a hearing. Which of the following is most accurate?",
+        "options":
+            [
+                "The demolition is valid because the officer had determined the structure was illegal.",
+                "The demolition violates audi alteram partem, as the shopkeeper was given no notice or opportunity to be heard and no exception applied.",
+                "The demolition is valid because natural justice does not apply to administrative authorities.",
+                "The demolition is invalid only if the shopkeeper can prove the structure was legal."
+            ],
+        "correctOptions": [1]
+    },
+    {
+        "passage": "In the law of contract, an offer must be distinguished from an invitation to treat. An offer is a definite promise to be bound on specific terms, capable of acceptance so as to form a binding agreement. An invitation to treat, by contrast, is merely an invitation to others to make offers. The display of goods in a shop with a price tag, or an advertisement in a catalogue, is generally regarded as an invitation to treat rather than an offer. Consequently, it is the customer who makes the offer to buy, which the seller is free to accept or reject.",
+        "question": "A supermarket displays a television marked at a price that, due to a printing error, is far below its true value. A customer takes it to the counter and insists the store must sell it at the displayed price. Which of the following is most accurate?",
+        "options":
+            [
+                "The store must sell at the displayed price, since the price tag constituted a binding offer.",
+                "The display is an invitation to treat, so the customer's presentation at the counter is the offer, which the store may reject.",
+                "The store must sell, because advertisements and displays are always offers.",
+                "The contract was concluded the moment the customer picked up the television."
+            ],
+        "correctOptions": [1]
+    },
+    {
+        "passage": "Under criminal law, the defence of private defence permits a person to use reasonable force to protect their own body or property, or that of another, against an imminent threat. The force used, however, must be proportionate to the threat faced. The right does not extend to inflicting more harm than is necessary to repel the attack, and it generally ceases once the threat has passed. A person who continues to inflict injury after the danger has subsided may lose the protection of this defence and become liable for the excess harm caused.",
+        "question": "An intruder attacks Meera with a stick. Meera disarms him, and the intruder turns to flee. Meera then strikes the fleeing intruder repeatedly, causing grievous injuries. Which of the following is most accurate?",
+        "options":
+            [
+                "Meera is fully protected by private defence, since the intruder had attacked her first.",
+                "Meera loses the protection of private defence for the blows struck after the threat had passed, and is liable for the excess harm.",
+                "Meera is not liable at all, because property owners may use unlimited force against intruders.",
+                "Meera is liable for the entire incident, including her initial act of disarming the intruder."
+            ],
+        "correctOptions": [1]
+    },
+    {
+        "passage": "The tort of negligence requires the claimant to establish three elements: that the defendant owed a duty of care, that the duty was breached, and that the breach caused damage that was not too remote. A duty of care arises where harm to the claimant was a reasonably foreseeable consequence of the defendant's conduct. Even where a duty exists and is breached, liability will not follow unless the breach was the actual and proximate cause of the harm suffered. Damage that is too remote a consequence of the breach is not recoverable.",
+        "question": "A driver negligently runs a red light and lightly bumps another car. The other driver, unharmed at the scene, suffers a heart attack two weeks later while recalling the incident, unrelated to any physical injury. Which of the following is most accurate?",
+        "options":
+            [
+                "The driver is liable for the heart attack because he breached his duty of care by running the red light.",
+                "The driver may not be liable for the heart attack if it is too remote a consequence of the breach, even though a duty was breached.",
+                "The driver is automatically liable for all consequences flowing from running the red light.",
+                "No duty of care was owed, since the collision caused no physical injury."
+            ],
+        "correctOptions": [1]
+    },
+    {
+        "passage": "Consideration is an essential element of a valid contract in most legal systems. It refers to something of value given by each party to a contract, forming the price for which the other party's promise is bought. A promise unsupported by consideration is generally not enforceable. However, the law provides that consideration need not be adequate; it need only be sufficient in the eyes of the law. This means courts will not ordinarily inquire into whether the parties made a good bargain, so long as some real value, however small, has been exchanged.",
+        "question": "Anil agrees to sell his car, worth a large sum, to his friend for a nominal amount. Later, Anil refuses to honour the agreement, arguing that the price was far too low to make the contract valid. Which of the following is most accurate?",
+        "options":
+            [
+                "The contract is invalid because the consideration was inadequate compared to the car's value.",
+                "The contract is valid, as consideration need only be sufficient, not adequate, and the court will not reassess the bargain.",
+                "The contract is valid only if Anil can be shown to have received fair market value.",
+                "No contract arose, since a nominal amount cannot constitute consideration."
+            ],
+        "correctOptions": [1]
+    }
+]
