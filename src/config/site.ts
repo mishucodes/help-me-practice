@@ -1,12 +1,16 @@
+import brandLogoSvg from "#/assets/images/brand-logo.svg";
+import brandLogoTransparentLightModePng from "#/assets/images/brand-logo-transparent-light-mode.png";
+import brandLogoTransparentDarkModePng from "#/assets/images/brand-logo-transparent-dark-mode.png";
+
 //About Brand:
 export const brandname = "Help Me Practice";
 export const brandnameStylised = "elp Me Practice";
 export const brandTagline = "Real past exams. Real practice. Real confidence.";
 
 //Media Assets:
-export const brandLogoSquareSolid = "/src/assets/images/brand-logo.svg";
-export const brandLogoSquareTransparentLightMode = "/src/assets/images/brand-logo-transparent-light-mode.png";
-export const brandLogoSquareTransparentDarkMode = "/src/assets/images/brand-logo-transparent-dark-mode.png";
+export const brandLogoSquareSolid = brandLogoSvg;
+export const brandLogoSquareTransparentLightMode = brandLogoTransparentLightModePng;
+export const brandLogoSquareTransparentDarkMode = brandLogoTransparentDarkModePng;
 
 //Outside Links:
 export const personalWebsiteLink = "https://www.manishgoyal.dev";

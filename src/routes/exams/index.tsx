@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { ListOfAllExamsCategorised } from '#/components/shared/exam-picker/ListOfAllExamsCategorised';
+import { ListOfSupportedExams } from '#/components/landing-page/ListOfSupportedExams';
 
 export const Route = createFileRoute('/exams/')(
     {
@@ -9,6 +9,6 @@ export const Route = createFileRoute('/exams/')(
 function ExamsPage()
 {
     return (
-        <ListOfAllExamsCategorised/>
+        <ListOfSupportedExams/>
     );
 }
