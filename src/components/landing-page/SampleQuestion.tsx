@@ -21,7 +21,7 @@ export function SampleQuestion()
     }
 
     return(
-        <section className="bg-card p-7 flex flex-col gap-4">
+        <section className="bg-card/50 p-7 md:p-10 flex flex-col gap-4">
             <h2 className="font-bold text-[1.75rem] md:text-3xl">{heading}</h2>
             <hr />
             <div className="font-serif">

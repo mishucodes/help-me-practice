@@ -7,7 +7,9 @@ import {HeroSection} from '#/components/landing-page/HeroSection';
 import { ListOfSupportedExams } from '#/components/landing-page/ListOfSupportedExams';
 import { HowToUseThisApp } from '#/components/landing-page/HowToUseThisApp';
 import { SampleQuestion } from '#/components/landing-page/SampleQuestion';
+import {FrequentlyAskedQuestions} from '#/components/landing-page/FrequentlyAskedQuestions';
 import { RequestingNewExams } from '#/components/landing-page/RequestingNewExams';
+import {ClosingCTA} from '#/components/landing-page/ClosingCTA';
 
 
 //Page:
@@ -17,9 +19,11 @@ function LandingPage()
         <>
             <HeroSection/>
             <ListOfSupportedExams/>
-            <RequestingNewExams/>
             <HowToUseThisApp/>
             <SampleQuestion/>
+            <FrequentlyAskedQuestions/>
+            <RequestingNewExams/>
+            <ClosingCTA/>
         </>
     );
 }
