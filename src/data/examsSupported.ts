@@ -23,7 +23,7 @@ export const examsSupported: ExamsSupported[] =
                     {name: "aibe", years: [2020, 2021, 2022, 2023, 2024, 2025]},
                 ],
             Icon: FaGavel,
-            bgTheme: "bg-black/10"
+            bgTheme: "bg-slate-500/10"
         },
         {
             category: "engineering",
