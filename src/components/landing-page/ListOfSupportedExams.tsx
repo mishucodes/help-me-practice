@@ -20,9 +20,9 @@ export function ListOfSupportedExams()
                             <div className="flex flex-col gap-2">
                                 {
                                     // Need to update these links:
-                                    list.map((examName, idx) =>
-                                        <Link key={idx} to="/" className="text-sm underline">
-                                            {examName}
+                                    list.map((exam, idx) =>
+                                        <Link key={idx} to={exam.link} params={{examName: exam.param}} className="text-sm underline">
+                                            {exam.name}
                                         </Link>)
                                 }
                             </div>
