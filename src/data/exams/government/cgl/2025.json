@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "Choose the correctly spelt word.",
+        "options": [
+            "Accomodate",
+            "Acommodate",
+            "Accommodate",
+            "Acomodate"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "₹8,000 is invested at 10% simple interest per annum. What is the interest after 3 years?",
+        "options": [
+            "₹2,400",
+            "₹2,648",
+            "₹800",
+            "₹3,000"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Who wrote 'The Discovery of India'?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "B. R. Ambedkar",
+            "Rabindranath Tagore"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "If CAT is coded as 3120, how is DOG coded?",
+        "options": [
+            "4157",
+            "41507",
+            "4167",
+            "1547"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Choose the synonym of 'abundant'.",
+        "options": [
+            "Scarce",
+            "Plentiful",
+            "Rare",
+            "Meagre"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

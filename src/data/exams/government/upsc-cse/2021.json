@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "The Tropic of Cancer does NOT pass through which of these Indian states?",
+        "options": [
+            "Gujarat",
+            "Odisha",
+            "Jharkhand",
+            "Mizoram"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Who founded the Servants of India Society?",
+        "options": [
+            "Gopal Krishna Gokhale",
+            "Bal Gangadhar Tilak",
+            "Dadabhai Naoroji",
+            "Lala Lajpat Rai"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "The repo rate is the rate at which:",
+        "options": [
+            "commercial banks lend to the public",
+            "the RBI lends short-term funds to commercial banks",
+            "commercial banks deposit money with the RBI",
+            "the government borrows from the World Bank"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which one of the following is a greenhouse gas?",
+        "options": [
+            "Nitrogen",
+            "Oxygen",
+            "Methane",
+            "Argon"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which Schedule of the Constitution of India contains the provisions on anti-defection?",
+        "options": [
+            "Eighth Schedule",
+            "Ninth Schedule",
+            "Tenth Schedule",
+            "Eleventh Schedule"
+        ],
+        "correctOptions": [
+            2
+        ]
+    }
+]

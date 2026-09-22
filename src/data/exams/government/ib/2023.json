@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "What is the smallest prime number?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Choose the antonym of 'hostile'.",
+        "options": [
+            "Aggressive",
+            "Friendly",
+            "Angry",
+            "Bitter"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which Indian city is known as the 'Silicon Valley of India'?",
+        "options": [
+            "Hyderabad",
+            "Pune",
+            "Bengaluru",
+            "Chennai"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the full form of CPU?",
+        "options": [
+            "Central Processing Unit",
+            "Control Program Unit",
+            "Central Power Unit",
+            "Computer Personal Unit"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A man walks 5 km north, then 3 km east, then 5 km south. How far is he from his starting point?",
+        "options": [
+            "3 km",
+            "5 km",
+            "8 km",
+            "13 km"
+        ],
+        "correctOptions": [
+            0
+        ]
+    }
+]

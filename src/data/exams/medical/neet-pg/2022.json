@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "Koplik spots are characteristic of:",
+        "options": [
+            "Rubella",
+            "Measles",
+            "Chickenpox",
+            "Mumps"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Deficiency of vitamin B1 (thiamine) causes:",
+        "options": [
+            "Pellagra",
+            "Scurvy",
+            "Beriberi",
+            "Rickets"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the most common site of ectopic pregnancy?",
+        "options": [
+            "Ovary",
+            "Cervix",
+            "Ampulla of the fallopian tube",
+            "Abdominal cavity"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which nerve is most commonly injured in a fracture of the surgical neck of the humerus?",
+        "options": [
+            "Radial nerve",
+            "Axillary nerve",
+            "Ulnar nerve",
+            "Median nerve"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the drug of choice for anaphylactic shock?",
+        "options": [
+            "Intramuscular adrenaline",
+            "Intravenous hydrocortisone",
+            "Oral antihistamine",
+            "Intravenous atropine"
+        ],
+        "correctOptions": [
+            0
+        ]
+    }
+]

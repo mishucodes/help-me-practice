@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "The city argues that its new stadium will pay for itself through increased tourism.",
+        "question": "Which of the following, if true, most seriously weakens the city's argument?",
+        "options": [
+            "Most money that visitors spend at the stadium would otherwise have been spent at other local attractions.",
+            "The stadium will be built by a local firm.",
+            "The stadium will seat 40,000 people.",
+            "Other cities have built stadiums."
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "If 3x + 7 = 22, what is the value of x?",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "15"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "After Company X cut the prices of all its products by 10%, its total revenue rose by 20%.",
+        "question": "Which of the following can be properly inferred?",
+        "options": [
+            "Company X's profits rose by 20%.",
+            "Company X sold more units than before.",
+            "Company X's competitors raised their prices.",
+            "Company X's costs fell by 10%."
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is 15% of 240?",
+        "options": [
+            "24",
+            "32",
+            "36",
+            "48"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Five numbers have a mean of 10. If one of them, 18, is removed, what is the mean of the remaining four?",
+        "options": [
+            "8",
+            "8.5",
+            "9",
+            "7"
+        ],
+        "correctOptions": [
+            0
+        ]
+    }
+]

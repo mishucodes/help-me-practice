@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "If the day after tomorrow is Monday, what day was it yesterday?",
+        "options": [
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the next term: 2, 6, 12, 20, 30, ?",
+        "options": [
+            "40",
+            "42",
+            "44",
+            "36"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "A manager learns that a high-performing team member has been quietly taking credit for a junior colleague's work.",
+        "question": "What is the most appropriate first step for the manager?",
+        "options": [
+            "Publicly reprimand the high performer at the next team meeting.",
+            "Ignore it, since the team's results are good.",
+            "Verify the facts privately and speak with both employees.",
+            "Transfer the junior colleague to another team."
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Choose the word that best fills the blank: The negotiations reached an ______ when neither side would concede.",
+        "options": [
+            "impasse",
+            "accord",
+            "overture",
+            "epiphany"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A train 150 m long passes a pole in 10 seconds. What is its speed in km/h?",
+        "options": [
+            "15",
+            "54",
+            "36",
+            "60"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

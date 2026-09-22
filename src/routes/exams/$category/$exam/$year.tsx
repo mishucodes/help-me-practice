@@ -1,13 +1,7 @@
+//Router:
 import {createFileRoute, Navigate} from '@tanstack/react-router';
-import z from "zod";
 import {getExam} from '#/lib/getExam';
-
-const examParamsSchema = z.object(
-    {
-        category: z.string(),
-        exam: z.string(),
-        year: z.coerce.number(),
-    });
+import {examParamsSchema, examSchema} from '#/schemas/exam';
 export const Route = createFileRoute('/exams/$category/$exam/$year')(
     {
         params:
@@ -15,23 +9,22 @@ export const Route = createFileRoute('/exams/$category/$exam/$year')(
             parse: (rawParams) => examParamsSchema.parse(rawParams),
             stringify: ({category, exam, year}) => ({ category, exam, year: String(year) }),
         },
-        loader: ({ params }) => getExam(params),
+        loader: async ({ params }) => examSchema.parse(await getExam(params)),
         errorComponent: () => <Navigate to="/exams"/>,
         notFoundComponent: () => <Navigate to="/exams"/>,
         component: ExamPage
     });
 
+//Components:
+import {ExamPractice} from '#/components/exams-page/ExamPractice';
+
+//Page:
 function ExamPage()
 {
-    const examData = Route.useLoaderData();
+    const questions = Route.useLoaderData();
     return (
         <>
-            <h1>Here's your exam</h1>
-            <section>
-                {
-                    
-                }
-            </section>
+            <ExamPractice questions={questions}/>
         </>
     );
 }

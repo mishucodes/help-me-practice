@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "What is the Laplace transform of the unit step function?",
+        "options": [
+            "1",
+            "s",
+            "1/s",
+            "1/s²"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the time complexity of binary search on a sorted array of n elements?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the rank of the matrix [[1, 2], [2, 4]]?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "4"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "In a series RLC circuit at resonance, the impedance is:",
+        "options": [
+            "maximum and equal to R",
+            "minimum and equal to R",
+            "zero",
+            "infinite"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which data structure follows the Last-In-First-Out principle?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Heap",
+            "Linked list"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

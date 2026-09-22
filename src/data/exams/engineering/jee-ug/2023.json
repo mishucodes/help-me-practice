@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "If α and β are the roots of x² − 5x + 6 = 0, what is α² + β²?",
+        "options": [
+            "13",
+            "25",
+            "11",
+            "12"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Resistors of 4 Ω and 12 Ω are connected in parallel. What is their equivalent resistance?",
+        "options": [
+            "16 Ω",
+            "3 Ω",
+            "8 Ω",
+            "48 Ω"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A body starts from rest and moves with a uniform acceleration of 2 m/s². What distance does it cover in 5 s?",
+        "options": [
+            "10 m",
+            "20 m",
+            "25 m",
+            "50 m"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the value of the definite integral of 2x with respect to x, from 0 to 3?",
+        "options": [
+            "6",
+            "9",
+            "3",
+            "18"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the hybridisation of the carbon atom in methane (CH₄)?",
+        "options": [
+            "sp",
+            "sp²",
+            "sp³",
+            "sp³d"
+        ],
+        "correctOptions": [
+            2
+        ]
+    }
+]

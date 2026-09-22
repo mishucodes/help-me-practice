@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "The average of five consecutive odd numbers is 21. What is the largest of them?",
+        "options": [
+            "23",
+            "25",
+            "27",
+            "29"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A shopkeeper marks an item 40% above its cost price and offers a 10% discount. What is the profit percentage?",
+        "options": [
+            "30%",
+            "26%",
+            "36%",
+            "24%"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "If log₂ x = 5, what is x?",
+        "options": [
+            "10",
+            "25",
+            "32",
+            "64"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A can finish a job in 12 days and B in 18 days. Working together, how many days will they take?",
+        "options": [
+            "7.2",
+            "6",
+            "15",
+            "9"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "Remote work has not killed the office; it has redefined it. Firms that once measured commitment by hours at a desk now find that output, not presence, is what clients pay for.",
+        "question": "The central claim of the passage is that:",
+        "options": [
+            "offices will soon disappear",
+            "remote work has changed what the office is for",
+            "clients prefer firms with large offices",
+            "employees work fewer hours at home"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]
