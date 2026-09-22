@@ -1,4 +1,4 @@
-import { examsSupported, heading, subheading } from "#/content/landing-page/listOfExamsSupported";
+import {heading, subheading, listOfSupportedExams} from "#/content/landing-page/listOfExamsSupported";
 import { Link } from "@tanstack/react-router";
 
 export function ListOfSupportedExams()
@@ -11,7 +11,7 @@ export function ListOfSupportedExams()
             </div>
             <ul className="w-full flex flex-wrap justify-center gap-5">
                 {
-                    examsSupported.map(({id, Icon, category, bgc, list}) =>
+                    listOfSupportedExams.map(({id, Icon, category, listOfSupportedExams}) =>
                         <li key={id} className={`${bgc} py-5 px-3 md:px-5 flex flex-col justify-start items-center text-center gap-5 w-full sm:w-fit`}>
                             <div className="flex flex-col justify-center items-center">
                                 <Icon className="h-10 w-10 opacity-90"/>

@@ -17,13 +17,13 @@ function LandingPage()
 {
     return (
         <>
-            <HeroSection/>
+            {/* <HeroSection/> */}
             <ListOfSupportedExams/>
-            <HowToUseThisApp/>
-            <SampleQuestion/>
-            <FrequentlyAskedQuestions/>
-            <RequestingNewExams/>
-            <ClosingCTA/>
+            {/* <HowToUseThisApp/> */}
+            {/* <SampleQuestion/> */}
+            {/* <FrequentlyAskedQuestions/> */}
+            {/* <RequestingNewExams/> */}
+            {/* <ClosingCTA/> */}
         </>
     );
 }
