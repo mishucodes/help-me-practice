@@ -16,7 +16,7 @@ export function ListOfAllExamsCategorised()
                             {
                                 namesAndYearsOfExams.map((exam) =>
                                     <YearPickerForExam
-                                        examCategory: {}
+                                        examCategory = {category}
                                         examName={exam.name}
                                         yearsSupported={exam.years}
                                     />)

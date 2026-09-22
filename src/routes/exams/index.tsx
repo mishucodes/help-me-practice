@@ -1,11 +1,20 @@
 import { createFileRoute } from '@tanstack/react-router';
-export const Route = createFileRoute('/exams/')({component: ExamsPage})
+import z from "zod";
+
+const examSearchSchema = z.object({
+    category: z.string().optional(),
+    exam: z.string().optional(),
+    year: z.number().optional(),
+});
+
+export const Route = createFileRoute('/exams/')({validateSearch: examSearchSchema, component: ExamsPage})
 
 function ExamsPage()
 {
+    const search = Route.useSearch();
     return (
         <>
-            <h1>Here are all the Exams we support:</h1>
+            <pre>{JSON.stringify(search, null, 2)}</pre>
         </>
     );
 }
