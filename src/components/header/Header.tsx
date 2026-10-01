@@ -2,8 +2,8 @@
 import {brandLogoSquareTransparentDarkMode, brandLogoSquareTransparentLightMode, brandnameStylised} from "#/config/site";
 //Components:
 import {Link} from "@tanstack/react-router";
-import { ModeToggle } from "../mode-toggle";
-import { Button } from "../ui/button";
+import {ModeToggle} from "../mode-toggle";
+import {Button} from "../ui/button";
 
 export function Header()
 {
