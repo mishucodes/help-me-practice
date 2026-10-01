@@ -1,0 +1,33 @@
+import type {ExamCategories} from "#/data/supportedExams";
+import {Button} from "@/components/ui/button";
+import {Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger} from "@/components/ui/dialog";
+import {Link} from "@tanstack/react-router";
+
+type YearPickerForAnExamProps = {examCategory: ExamCategories, examName: string, yearsSupported: number[]};
+export function YearPickerForAnExam({examCategory, examName, yearsSupported}: YearPickerForAnExamProps)
+{
+    return (
+    <Dialog>
+        <DialogTrigger render={<Button variant="outline">{examName.toUpperCase()}</Button>} />
+        <DialogContent>
+            <DialogHeader>
+                <DialogTitle>Please Select a Year</DialogTitle>
+                <DialogDescription>Select a year the {examName.toUpperCase()} exam!</DialogDescription>
+            </DialogHeader>
+            <div className="-mx-4 no-scrollbar max-h-[50vh] overflow-y-auto px-4 flex flex-col gap-2">
+                {
+                    yearsSupported.map((year) =>
+                        <Link
+                            key={year}
+                            to="/exams/$category/$exam/$year"
+                            params={{category: examCategory, exam: examName, year: String(year)}} className="text-center bg-accent/25 py-2">
+                            {examName.toUpperCase()} - {year}
+                        </Link>)
+                }
+            </div>
+            <DialogFooter>
+                <DialogClose render={<Button variant="outline">Close</Button>} />
+            </DialogFooter>
+        </DialogContent>
+    </Dialog>);
+}
