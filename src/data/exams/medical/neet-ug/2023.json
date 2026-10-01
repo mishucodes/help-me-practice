@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "What is the SI unit of electric charge?",
+        "options": [
+            "Ampere",
+            "Volt",
+            "Coulomb",
+            "Ohm"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the pH of a neutral aqueous solution at 25 °C?",
+        "options": [
+            "0",
+            "7",
+            "14",
+            "1"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which organelle is known as the powerhouse of the cell?",
+        "options": [
+            "Ribosome",
+            "Golgi apparatus",
+            "Mitochondrion",
+            "Lysosome"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What is the functional unit of the kidney?",
+        "options": [
+            "Neuron",
+            "Nephron",
+            "Alveolus",
+            "Villus"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which blood group is known as the universal donor?",
+        "options": [
+            "AB positive",
+            "O negative",
+            "A positive",
+            "B negative"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "Every employee who completed the safety course received a certificate. Maria received a certificate, so Maria must have completed the safety course.",
+        "question": "The reasoning in the argument is flawed because the argument:",
+        "options": [
+            "assumes that only those who completed the course could have received a certificate",
+            "relies on the testimony of an interested party",
+            "generalizes from a single unrepresentative case",
+            "confuses a cause with its effect"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "Towns that built new bike lanes saw a drop in traffic accidents. Therefore, building bike lanes reduces accidents.",
+        "question": "Which one of the following, if true, most weakens the argument?",
+        "options": [
+            "Some towns without bike lanes also saw fewer accidents.",
+            "The towns that built bike lanes lowered their speed limits at the same time.",
+            "Bike lanes are expensive to build.",
+            "Cyclists prefer roads with bike lanes."
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "No reptile is warm-blooded. All snakes are reptiles.",
+        "question": "If the statements above are true, which one of the following must also be true?",
+        "options": [
+            "Some warm-blooded animals are snakes.",
+            "No snake is warm-blooded.",
+            "All reptiles are snakes.",
+            "Some reptiles are warm-blooded."
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "Critic: The new museum wing is a failure. Attendance in its first month was lower than attendance at the old wing's opening twenty years ago.",
+        "question": "The critic's reasoning is most vulnerable to criticism on the grounds that it:",
+        "options": [
+            "ignores that circumstances may have changed considerably over twenty years",
+            "attacks the architect rather than the building",
+            "presupposes what it sets out to prove",
+            "uses the word 'failure' in two different senses"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "If the council approves the budget, the park will be renovated. The park will not be renovated.",
+        "question": "If the statements above are true, which one of the following must also be true?",
+        "options": [
+            "The council approved the budget.",
+            "The council did not approve the budget.",
+            "The park will be renovated next year.",
+            "The budget was too small."
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

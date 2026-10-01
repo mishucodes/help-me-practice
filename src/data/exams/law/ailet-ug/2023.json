@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "Which Article of the Constitution of India abolishes untouchability?",
+        "options": [
+            "Article 14",
+            "Article 17",
+            "Article 21",
+            "Article 32"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Find the next number in the series: 3, 7, 15, 31, ?",
+        "options": [
+            "47",
+            "55",
+            "63",
+            "62"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Choose the word most nearly opposite in meaning to 'ephemeral'.",
+        "options": [
+            "Transient",
+            "Permanent",
+            "Fragile",
+            "Obscure"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+        "options": [
+            "The President",
+            "The Prime Minister",
+            "The Vice-President",
+            "The Speaker of the Lok Sabha"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "All lawyers are graduates, and some graduates are writers. Which conclusion definitely follows?",
+        "options": [
+            "All writers are lawyers.",
+            "Some lawyers are writers.",
+            "No lawyer is a writer.",
+            "None of these conclusions definitely follows."
+        ],
+        "correctOptions": [
+            3
+        ]
+    }
+]

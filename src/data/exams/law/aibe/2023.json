@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "Which Article of the Constitution of India empowers the Supreme Court to issue writs to enforce fundamental rights?",
+        "options": [
+            "Article 32",
+            "Article 226",
+            "Article 136",
+            "Article 142"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which of the following is NOT a condition of a valid Hindu marriage under Section 5 of the Hindu Marriage Act, 1955?",
+        "options": [
+            "Neither party has a living spouse at the time of marriage.",
+            "The parties are not within the degrees of prohibited relationship.",
+            "The marriage is registered.",
+            "The bridegroom has completed 21 years of age."
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Under the Advocates Act, 1961, which body lays down standards of professional conduct and etiquette for advocates?",
+        "options": [
+            "State Bar Councils",
+            "Bar Council of India",
+            "Supreme Court of India",
+            "Ministry of Law and Justice"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "The Bharatiya Nyaya Sanhita, 2023 replaced which law?",
+        "options": [
+            "Code of Criminal Procedure, 1973",
+            "Indian Evidence Act, 1872",
+            "Indian Penal Code, 1860",
+            "Code of Civil Procedure, 1908"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "A writ of habeas corpus is issued to:",
+        "options": [
+            "direct a public authority to perform a public duty",
+            "produce a detained person before the court",
+            "quash an order of a lower court",
+            "restrain a person from holding a public office unlawfully"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

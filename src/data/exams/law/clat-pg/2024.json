@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "The doctrine of res judicata, codified in Section 11 of the Code of Civil Procedure, 1908, bars a court from trying a suit in which the matter directly and substantially in issue has already been heard and finally decided between the same parties by a competent court.",
+        "question": "The doctrine of res judicata primarily serves to:",
+        "options": [
+            "allow appeals to higher courts",
+            "prevent the same dispute between the same parties from being litigated again",
+            "transfer suits between courts",
+            "permit fresh evidence after judgment"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "Article 21 of the Constitution provides that no person shall be deprived of life or personal liberty except according to procedure established by law. In Maneka Gandhi v. Union of India (1978), the Supreme Court held that such procedure must be just, fair and reasonable.",
+        "question": "Following Maneka Gandhi, a law depriving a person of personal liberty is valid only if:",
+        "options": [
+            "it is enacted by Parliament, whatever its procedure",
+            "its procedure is just, fair and reasonable",
+            "it is approved by the President",
+            "it applies only to citizens"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court held that Parliament's power to amend the Constitution under Article 368 does not extend to altering its basic structure.",
+        "question": "A constitutional amendment abolishing judicial review entirely would most likely be:",
+        "options": [
+            "valid, since the power under Article 368 is unlimited",
+            "invalid, as judicial review forms part of the basic structure",
+            "valid if ratified by half of the states",
+            "invalid only if passed by a simple majority"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "Under Section 73 of the Indian Contract Act, 1872, compensation for breach covers loss that naturally arose in the usual course of things, or that the parties knew, when they made the contract, to be likely to result from the breach. Remote and indirect loss is not recoverable.",
+        "question": "A courier delivers a mill's broken shaft late. The mill never told the courier that the mill would stand idle without it. The mill's lost profits are:",
+        "options": [
+            "recoverable, as all losses from a breach are compensable",
+            "not recoverable, as the loss was not within the parties' contemplation",
+            "recoverable only if the delay exceeded a week",
+            "recoverable as exemplary damages"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "In Vishaka v. State of Rajasthan (1997), the Supreme Court laid down guidelines to prevent sexual harassment at the workplace, which were to remain binding until Parliament enacted a law on the subject.",
+        "question": "Which statute later gave legislative form to the Vishaka guidelines?",
+        "options": [
+            "The Protection of Women from Domestic Violence Act, 2005",
+            "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+            "The Criminal Law (Amendment) Act, 2013",
+            "The Equal Remuneration Act, 1976"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

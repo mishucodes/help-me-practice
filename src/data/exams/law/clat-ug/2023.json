@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "The committee's report was notable for its candour; it neither flattered the ministry nor concealed the failures of the previous decade.",
+        "question": "The word 'candour', as used in the passage, most nearly means:",
+        "options": [
+            "Frankness",
+            "Hostility",
+            "Brevity",
+            "Ambiguity"
+        ],
+        "correctOptions": [
+            0
+        ]
+    },
+    {
+        "passage": "A coaching centre had 400 students in 2022. The number rose by 25% in 2023 and then fell by 20% in 2024.",
+        "question": "How many students did the centre have in 2024?",
+        "options": [
+            "380",
+            "400",
+            "420",
+            "500"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "Under the Indian Contract Act, 1872, an agreement with a minor is void ab initio, as held in Mohori Bibee v. Dharmodas Ghose (1903). A minor cannot be compelled to perform it, and cannot ratify it on attaining majority.",
+        "question": "Aman, aged 16, borrows ₹50,000 from Bhavna and promises to repay it. On turning 18, he writes to her confirming he will repay. Which of the following is most accurate?",
+        "options": [
+            "Aman is bound, because he ratified the agreement on attaining majority.",
+            "The agreement is void, and Aman's later confirmation cannot validate it.",
+            "The agreement is voidable at Bhavna's option.",
+            "Aman is bound because the loan was for his benefit."
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "Rylands v. Fletcher laid down strict liability for the escape of dangerous things from one's land, even without negligence, subject to exceptions. In M.C. Mehta v. Union of India (1987), the Supreme Court went further and adopted absolute liability for hazardous industries, allowing no exceptions.",
+        "question": "A chemical plant leaks toxic gas despite taking every reasonable precaution, harming nearby residents. Under Indian law, which of the following is most accurate?",
+        "options": [
+            "The plant is not liable because it was not negligent.",
+            "The plant is liable only if the leak was foreseeable.",
+            "The plant is absolutely liable, and no exception applies.",
+            "The plant escapes liability if a third party caused the leak."
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "The Right to Information Act, 2005 allows citizens to request information from public authorities. A Public Information Officer must ordinarily respond within 30 days, but within 48 hours where the information concerns the life or liberty of a person.",
+        "question": "Ritu applies for information about the whereabouts of her detained brother. Within what time must the Public Information Officer respond?",
+        "options": [
+            "30 days",
+            "48 hours",
+            "7 days",
+            "15 days"
+        ],
+        "correctOptions": [
+            1
+        ]
+    }
+]

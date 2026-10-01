@@ -1,0 +1,67 @@
+[
+    {
+        "passage": "",
+        "question": "Which of the following is declared a court of record by the Constitution of India?",
+        "options": [
+            "A District Court",
+            "The Supreme Court",
+            "A tribunal",
+            "A Lok Adalat"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Which Order of the Code of Civil Procedure, 1908 deals with temporary injunctions?",
+        "options": [
+            "Order VII",
+            "Order XXI",
+            "Order XXXIX",
+            "Order XLI"
+        ],
+        "correctOptions": [
+            2
+        ]
+    },
+    {
+        "passage": "",
+        "question": "Under the Indian Evidence Act, 1872, a confession made to a police officer:",
+        "options": [
+            "is admissible in all cases",
+            "cannot be proved against the accused",
+            "is admissible if recorded in writing",
+            "is admissible if made voluntarily"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "After the 2018 amendment to the Specific Relief Act, 1963, specific performance of a contract is:",
+        "options": [
+            "always discretionary and exceptional",
+            "the general rule, subject to the Act's exceptions",
+            "unavailable for contracts involving immovable property",
+            "available only to government bodies"
+        ],
+        "correctOptions": [
+            1
+        ]
+    },
+    {
+        "passage": "",
+        "question": "What does the maxim 'ubi jus ibi remedium' mean?",
+        "options": [
+            "Where there is a right, there is a remedy.",
+            "Let the buyer beware.",
+            "An act does not make one guilty unless the mind is guilty.",
+            "No one should be a judge in their own cause."
+        ],
+        "correctOptions": [
+            0
+        ]
+    }
+]
