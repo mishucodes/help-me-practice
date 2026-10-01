@@ -6,12 +6,12 @@ import {YearPickerForAnExam} from "./_YearPickerForAnExam";
 export function ListOfSupportedExams()
 {
     return(
-        <section className="bg-card/50 py-10 px-5 md:p-10 text-center flex flex-col justify-center items-center gap-10">
+        <section className="bg-card/50 border py-10 px-5 md:p-10 text-center flex flex-col justify-center items-center gap-10">
             <h2 className="font-bold text-4xl">Exams you can practice right now!</h2>
             <ul className="flex justify-center items-center gap-5 flex-wrap">
                 {
                     examsSupported.map(({category, namesAndYearsOfExams, Icon, bgTheme}) =>
-                        <li key={category}>
+                        <li key={category} className="border w-4/5 sm:w-fit">
                             <div className={`${bgTheme} min-w-37.5 p-5 border flex flex-col justify-center items-center gap-5`}>
                                 <div className="flex flex-col justify-center items-center">
                                     <Icon className="h-10 w-10"/>
