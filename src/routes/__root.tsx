@@ -1,8 +1,13 @@
+//Dependencies:
 import {HeadContent, Scripts, createRootRoute} from '@tanstack/react-router';
 // import {TanStackRouterDevtoolsPanel} from '@tanstack/react-router-devtools';
 // import {TanStackDevtools} from '@tanstack/react-devtools';
 import appCss from '../styles.css?url';
 
+//Components:
+import {ThemeProvider} from '#/components/theme-provider';
+
+//Metadata:
 export const Route = createRootRoute(
     {
         head: () => (
@@ -18,15 +23,18 @@ export const Route = createRootRoute(
             shellComponent: RootDocument,
     });
 
+//Root Layout:
 function RootDocument({children}: {children: React.ReactNode})
 {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <head>
                 <HeadContent />
             </head>
             <body>
+                <ThemeProvider defaultTheme="system" storageKey="theme">
                 {children}
+                </ThemeProvider>
                 {/* <TanStackDevtools
                     config={{position: 'bottom-right'}}
                     plugins={[{name: 'Tanstack Router', render: <TanStackRouterDevtoolsPanel />}]}

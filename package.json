@@ -20,6 +20,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@base-ui/react": "^1.8.0",
     "@fontsource-variable/merriweather": "^5.3.0",
     "@fontsource-variable/montserrat": "^5.3.0",
     "@tailwindcss/vite": "^4.1.18",
