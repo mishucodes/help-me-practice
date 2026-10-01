@@ -6,6 +6,7 @@ import appCss from '../styles.css?url';
 
 //Components:
 import {ThemeProvider} from '#/components/theme-provider';
+import { Header } from '#/components/header/Header';
 
 //Metadata:
 export const Route = createRootRoute(
@@ -33,7 +34,8 @@ function RootDocument({children}: {children: React.ReactNode})
             </head>
             <body>
                 <ThemeProvider defaultTheme="system" storageKey="theme">
-                {children}
+                    <Header/>
+                    {children}
                 </ThemeProvider>
                 {/* <TanStackDevtools
                     config={{position: 'bottom-right'}}
