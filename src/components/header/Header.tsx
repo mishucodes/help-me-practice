@@ -1,5 +1,5 @@
 //Content:
-import {brandLogoSquareTransparentDarkMode, brandnameStylised} from "#/config/site";
+import {brandLogoSquareTransparentDarkMode, brandLogoSquareTransparentLightMode, brandnameStylised} from "#/config/site";
 //Components:
 import {Link} from "@tanstack/react-router";
 import { ModeToggle } from "../mode-toggle";
@@ -10,8 +10,9 @@ export function Header()
     return(
         <header className="px-2 py-2 flex justify-between items-center">
             <div className="flex justify-center items-center">
-                <img src={brandLogoSquareTransparentDarkMode} className="h-15 w-15"/>
-                <Link to="/" className="font-bold text-5xl text-foreground">{brandnameStylised}</Link>
+                <img src={brandLogoSquareTransparentDarkMode} className="hidden dark:block h-10 w-10 sm:h-12 sm:w-12 md:h-15 md:w-15"/>
+                <img src={brandLogoSquareTransparentLightMode} className="dark:hidden h-10 w-10 sm:h-12 sm:w-12 md:h-15 md:w-15"/>
+                <Link to="/" className="font-bold text-2xl sm:text-3xl md:text-5xl text-foreground">{brandnameStylised}</Link>
             </div>
             <div className="flex justify-center items-center gap-3">
                 <Button>Login</Button>
