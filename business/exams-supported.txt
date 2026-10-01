@@ -1,0 +1,24 @@
+Law Exams:
+1.⁠ ⁠CLAT-UG
+2.⁠ ⁠CLAT-PG
+3.⁠ ⁠AILET-UG
+4.⁠ ⁠LSAT-UG
+5.⁠ ⁠AIBE
+6. Judiciary (Provincial)
+
+Medical Exams:
+1. NEET UG
+
+Engineering Exams:
+1. JEE UG
+
+Management Exams:
+1.⁠ ⁠GMAT
+2.⁠ ⁠CAT
+3.⁠ ⁠XAT
+
+State Exams:
+1.⁠ ⁠UPSC
+2. CGL
+3. IB-ACIO
+4. PSC (Provincial)
