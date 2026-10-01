@@ -11,8 +11,10 @@ export function HeroSection()
                 <br />
                 All these exams are part of the public record, & I think they should be accessible to everyone.
             </p>
-            <Button size={"lg"}>Browse Exams</Button>
-            <a href={personalWebsiteLink} className="underline md:hover:font-semibold">Built by an Indie Dev</a>
+            <Button size={"xlg"}>Browse Exams</Button>
+            <a href={personalWebsiteLink} target="_blank" rel="noopener noreferrer" className="text-xs underline md:hover:font-semibold">
+                Built by an Indie Dev
+            </a>
         </section>
     )
 }
