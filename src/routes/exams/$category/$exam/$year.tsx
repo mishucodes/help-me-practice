@@ -4,7 +4,7 @@ export const Route = createFileRoute('/exams/$category/$exam/$year')(
     {
         params:
         {
-            stringify: ({category, exam, year}) => ({ category, exam, year: String(year) }),
+            stringify: ({category, exam, year}) => ({category, exam, year}),
         },
         component: ExamPage
     });
