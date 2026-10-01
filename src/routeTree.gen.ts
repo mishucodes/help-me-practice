@@ -10,33 +10,43 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ExamsCategoryExamYearRouteImport } from './routes/exams/$category/$exam/$year'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ExamsCategoryExamYearRoute = ExamsCategoryExamYearRouteImport.update({
+  id: '/exams/$category/$exam/$year',
+  path: '/exams/$category/$exam/$year',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/exams/$category/$exam/$year': typeof ExamsCategoryExamYearRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/exams/$category/$exam/$year': typeof ExamsCategoryExamYearRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/exams/$category/$exam/$year': typeof ExamsCategoryExamYearRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/exams/$category/$exam/$year'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/exams/$category/$exam/$year'
+  id: '__root__' | '/' | '/exams/$category/$exam/$year'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ExamsCategoryExamYearRoute: typeof ExamsCategoryExamYearRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +58,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/exams/$category/$exam/$year': {
+      id: '/exams/$category/$exam/$year'
+      path: '/exams/$category/$exam/$year'
+      fullPath: '/exams/$category/$exam/$year'
+      preLoaderRoute: typeof ExamsCategoryExamYearRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ExamsCategoryExamYearRoute: ExamsCategoryExamYearRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
