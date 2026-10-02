@@ -29,6 +29,10 @@
   --link-bg-hover: rgba(255, 255, 255, 0.9);
   --hero-a: rgba(79, 184, 178, 0.36);
   --hero-b: rgba(47, 106, 74, 0.2);
+  --saffron: oklch(0.774 0.163 60);
+  --india-green: oklch(0.545 0.18 142);
+  --saffron-tint: color-mix(in oklab, var(--saffron) 45%, transparent);
+  --india-green-tint: color-mix(in oklab, var(--india-green) 35%, transparent);
 
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -85,6 +89,8 @@
   --link-bg-hover: rgba(24, 44, 49, 0.8);
   --hero-a: rgba(96, 215, 207, 0.18);
   --hero-b: rgba(110, 200, 154, 0.12);
+  --saffron-tint: color-mix(in oklab, var(--saffron) 22%, transparent);
+  --india-green-tint: color-mix(in oklab, var(--india-green) 35%, transparent);
 
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -146,6 +152,8 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+  --color-saffron-tint: var(--saffron-tint);
+  --color-india-green-tint: var(--india-green-tint);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
