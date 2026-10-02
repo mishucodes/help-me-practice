@@ -8,7 +8,7 @@ import {Button} from "../ui/button";
 export function Header()
 {
     return(
-        <header className="sticky top-0 z-50 backdrop-blur-xl px-2 py-5 sm:py-3 flex justify-between items-center">
+        <header className="bg-saffron-tint sticky top-0 z-50 backdrop-blur-3xl px-2 py-5 sm:py-3 flex justify-between items-center">
             <div className="flex justify-center items-center">
                 <img src={brandLogoSquareTransparentDarkMode} className="hidden dark:block h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14"/>
                 <img src={brandLogoSquareTransparentLightMode} className="dark:hidden h-10 w-10 sm:h-12 sm:w-12 md:h-15 md:w-15"/>

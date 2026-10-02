@@ -1,10 +1,11 @@
 import {Button} from "../ui/button";
 import {personalWebsiteLink} from "#/config/site";
+import { MoveDown } from "lucide-react";
 
 export function HeroSection()
 {
     return(
-        <section className="text-center px-10 py-25 md:py-35 flex flex-col justify-center items-center gap-5">
+        <section className="h-screen px-10 text-center flex flex-col justify-center items-center gap-5 bg-linear-to-b from-saffron-tint via-background to-india-green-tint">
             <h1 className="font-bold text-5xl">Real Exams. Really Free.</h1>
             <p className="opacity-75 text-base">
                 Previous-year question papers for India's most important exams.
@@ -15,6 +16,7 @@ export function HeroSection()
             <a href={personalWebsiteLink} target="_blank" rel="noopener noreferrer" className="text-xs underline md:hover:font-semibold">
                 Built by an Indie Dev
             </a>
+            <MoveDown/>
         </section>
     )
 }
