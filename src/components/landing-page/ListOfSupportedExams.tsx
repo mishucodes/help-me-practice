@@ -7,7 +7,7 @@ export function ListOfSupportedExams()
 {
     return(
         <section className="bg-primary/10 border py-10 px-5 md:p-10 text-center flex flex-col justify-center items-center gap-10">
-            <h2 className="font-bold text-4xl">Exams you can practice right now!</h2>
+            <h2 className="font-bold text-3xl md:text-4xl">Exams you can practise right now!</h2>
             <ul className="flex justify-center items-center gap-5 flex-wrap">
                 {
                     examsSupported.map(({category, namesAndYearsOfExams, Icon, bgTheme}) =>
