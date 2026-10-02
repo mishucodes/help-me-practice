@@ -9,7 +9,7 @@ export function HowToUseThisApp()
                 <li><strong>Take the Exam:</strong> <span>Take the exam in peace</span></li>
                 <li><strong>Review your Performance:</strong> <span>Upon finishing, you'll be able to review your attempt</span></li>
             </ol>
-            <span className="opacity-50 text-sm">Piece of Advice: Failure is a verb, not an adjective.</span>
+            <span className="opacity-50 text-sm">Remember: Failure is a verb, not an adjective.</span>
         </section>
     )
 }
