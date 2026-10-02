@@ -10,11 +10,11 @@ import {SampleQuestion} from '#/components/landing-page/SampleQuestion';
 function LandingPage()
 {
     return (
-        <div className="p-8">
+        <main>
             <HeroSection/>
             <ListOfSupportedExams/>
             <HowToUseThisApp/>
             <SampleQuestion/>
-        </div>
+        </main>
     )
 }
