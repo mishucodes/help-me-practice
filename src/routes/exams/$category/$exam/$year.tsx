@@ -1,13 +1,6 @@
 //Router:
 import {createFileRoute} from '@tanstack/react-router';
-export const Route = createFileRoute('/exams/$category/$exam/$year')(
-    {
-        params:
-        {
-            stringify: ({category, exam, year}) => ({category, exam, year}),
-        },
-        component: ExamPage
-    });
+export const Route = createFileRoute('/exams/$category/$exam/$year')({component: ExamPage});
 
 //Page:
 function ExamPage()
