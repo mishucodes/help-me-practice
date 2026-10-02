@@ -1,4 +1,4 @@
-//About Brand:
+//About Brand & Links:
 import {brandLogoSquareSolid, brandname, brandTagline, githubProfileLink, linkedinProfileLink, personalWebsiteLink, technicalBlogLink, twitterProfileLink} from "#/config/site";
 //Icons:
 import type {IconType} from "react-icons";
@@ -9,9 +9,8 @@ import {FaLinkedin, FaXTwitter} from "react-icons/fa6";
 import type {FileRouteTypes} from "#/routeTree.gen";
 
 
-//AboutBrandAndOuterLinks:
+//About Brand And Outer Links:
 export const brandLogo = brandLogoSquareSolid;
-export const brandLogoAlt = "brand logo";
 export const footerHeading = brandname;
 export const footerSubheading = brandTagline;
 
@@ -26,13 +25,13 @@ export const socialMediaLinks: SocialMediaLinks =
     ];
 
 //Internal Links:
-export type AllInternalLinks =
+export type GroupedInternalLinks =
     {
         id: number,
         groupName: string,
         links: {id: number, name: string, link: FileRouteTypes["to"]}[]
     }[];
-export const allInternalLinks: AllInternalLinks =
+export const allInternalLinks: GroupedInternalLinks =
     [
         {
             id: 1,
