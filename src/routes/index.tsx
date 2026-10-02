@@ -6,6 +6,7 @@ import {HeroSection} from '#/components/landing-page/HeroSection';
 import {ListOfSupportedExams} from '#/components/landing-page/ListOfSupportedExams';
 import {HowToUseThisApp} from '#/components/landing-page/HowToUseThisApp';
 import {SampleQuestion} from '#/components/landing-page/SampleQuestion';
+import { FAQs } from '#/components/landing-page/FAQs';
 
 function LandingPage()
 {
@@ -15,6 +16,7 @@ function LandingPage()
             <ListOfSupportedExams/>
             <HowToUseThisApp/>
             <SampleQuestion/>
+            <FAQs/>
         </main>
     )
 }
