@@ -1,7 +1,7 @@
 export function HowToUseThisApp()
 {
     return(
-        <section className="bg-card/10 p-10 flex flex-col justify-center items-center gap-10">
+        <section className="bg-primary/10 p-10 flex flex-col justify-center items-center gap-10">
             <h2 className="text-3xl sm:text-4xl font-bold">How to use this App:</h2>
             <ol className="list-decimal list-inside flex flex-col justify-center">
                 <li><strong>Pick an Exam:</strong> <span>Choose from the list above</span></li>

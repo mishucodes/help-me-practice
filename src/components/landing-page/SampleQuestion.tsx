@@ -16,7 +16,7 @@ export function SampleQuestion()
         playSound(sampleQuestion.correctOptions.includes(idx+1) ? "correct" : "incorrect");
     }
     return(
-        <section className="bg-primary/10 border px-5 py-10 md:p-10 flex flex-col gap-5">
+        <section className="bg-card/10 border px-5 py-10 md:p-10 flex flex-col gap-5">
             <h2 className="text-5xl font-bold">Sample Question:</h2>
             <hr />
             <div className="font-serif">

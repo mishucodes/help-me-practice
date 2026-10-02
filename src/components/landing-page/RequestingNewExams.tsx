@@ -6,12 +6,12 @@ import {Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVal
 export function RequestingNewExam()
 {
     return(
-        <section className="bg-primary/10 p-6 md:px-25 md:py-10 flex flex-col justify-center items-center gap-5">
+        <section className="bg-card/10 p-6 md:px-25 md:py-10 flex flex-col justify-center items-center gap-5">
             <div className="flex flex-col justify-center gap-2">
-                <h2 className="text-[1.75rem] font-bold">Could not find the exam you were looking for?</h2>
+                <h2 className="text-2xl md:text-3xl font-bold">Could not find the exam you were looking for?</h2>
                 <p className="text-xl opacity-75">Feel free to request it here:</p>
             </div>
-            {/* <ExampleInputForm/> */}
+            <ExampleInputForm/>
         </section>
     )
 }
@@ -62,10 +62,6 @@ export function ExampleInputForm()
                         </Select>
                     </Field>
                 </div>
-                <Field>
-                    <FieldLabel htmlFor="form-address">Address</FieldLabel>
-                    <Input id="form-address" type="text" placeholder="123 Main St" />
-                </Field>
                 <Field orientation="horizontal">
                     <Button type="button" variant="outline">Cancel</Button>
                     <Button type="submit">Submit</Button>

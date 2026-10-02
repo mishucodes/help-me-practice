@@ -6,7 +6,7 @@ import {FAQsContent} from "#/content/landing-page/FAQs";
 export function FAQs()
 {
     return(
-        <section className="bg-card/10 p-10 flex flex-col justify-center md:items-center">
+        <section className="bg-primary/10 p-10 flex flex-col justify-center md:items-center">
             <h2 className="text-3xl md:text-4xl font-bold">FAQs</h2>
             <Accordion className="max-w-lg">
                 {
