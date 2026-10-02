@@ -4,7 +4,7 @@ import {personalWebsiteLink} from "#/config/site";
 export function HeroSection()
 {
     return(
-        <section className="text-center px-10 py-20 md:py-25 flex flex-col justify-center items-center gap-5">
+        <section className="text-center px-10 py-25 md:py-35 flex flex-col justify-center items-center gap-5">
             <h1 className="font-bold text-5xl">Real Exams. Really Free.</h1>
             <p className="opacity-75 text-base">
                 Previous-year question papers for India's most important exams.
