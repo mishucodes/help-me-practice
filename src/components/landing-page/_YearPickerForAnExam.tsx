@@ -8,23 +8,26 @@ export function YearPickerForAnExam({examCategory, examName, yearsSupported}: Ye
 {
     return (
     <Dialog>
-        <DialogTrigger render={<Button variant="outline">{examName.toUpperCase()}</Button>} />
+        <DialogTrigger render={<Button variant="default" className={"opacity-85"}>{examName.toUpperCase()}</Button>} />
         <DialogContent>
             <DialogHeader>
                 <DialogTitle>Please Select a Year</DialogTitle>
                 <DialogDescription>Select a year the {examName.toUpperCase()} exam!</DialogDescription>
             </DialogHeader>
-            <div className="-mx-4 no-scrollbar max-h-[50vh] overflow-y-auto px-4 flex flex-col gap-2">
+            <ol className="-mx-4 no-scrollbar max-h-[50vh] overflow-y-auto px-4 flex flex-col gap-2">
                 {
                     yearsSupported.map((year) =>
-                        <Link
-                            key={year}
-                            to="/exams/$category/$exam/$year"
-                            params={{category: examCategory, exam: examName, year: String(year)}} className="text-center bg-accent/25 py-2">
-                            {examName.toUpperCase()} - {year}
-                        </Link>)
+                        <li key={year} className="flex justify-center items-center">
+                            <Link
+                                to="/exams/$category/$exam/$year"
+                                params={{category: examCategory, exam: examName, year: String(year)}}
+                                className="bg-input w-full py-2 text-center"
+                            >
+                                {examName.toUpperCase()} - {year}
+                            </Link>
+                        </li>)
                 }
-            </div>
+            </ol>
             <DialogFooter>
                 <DialogClose render={<Button variant="outline">Close</Button>} />
             </DialogFooter>
