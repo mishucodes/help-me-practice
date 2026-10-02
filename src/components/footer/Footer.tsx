@@ -1,9 +1,10 @@
-import { AboutBrandAndOuterLinks } from "./AboutBrandAndOuterLinks";
+//Components:
+import {AboutBrandAndOuterLinks} from "./AboutBrandAndOuterLinks";
 
 export function Footer()
 {
     return(
-        <footer className="bg-emerald-600/25 p-5 md:p-15">
+        <footer className="bg-linear-to-b from-transparent to-india-green-tint p-5 md:p-15">
             <AboutBrandAndOuterLinks/>
         </footer>
     )

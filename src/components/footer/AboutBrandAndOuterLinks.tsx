@@ -1,3 +1,4 @@
+//Components:
 import {Link} from "@tanstack/react-router";
 //Content:
 import {brandLogo, brandLogoAlt, footerHeading, footerSubheading, socialMediaLinks} from "#/content/footer";
