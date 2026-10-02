@@ -8,6 +8,7 @@ import {HowToUseThisApp} from '#/components/landing-page/HowToUseThisApp';
 import {SampleQuestion} from '#/components/landing-page/SampleQuestion';
 import { FAQs } from '#/components/landing-page/FAQs';
 import { RequestingNewExam } from '#/components/landing-page/RequestingNewExams';
+import { ClosingCTA } from '#/components/landing-page/ClosingCTA';
 
 function LandingPage()
 {
@@ -19,6 +20,7 @@ function LandingPage()
             <HowToUseThisApp/>
             <SampleQuestion/>
             <FAQs/>
+            <ClosingCTA/>
         </main>
     )
 }
